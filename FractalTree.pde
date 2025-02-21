@@ -3,13 +3,14 @@ private int smallestBranch = 5;
 private double branchAngle = 0.3;  
 
 public void setup() {
-  size(700, 700);  
+  size(1000, 600);  
   noLoop();  
 }
 
 public void draw() {
   background(0);  
   stroke(255);
+  strokeWeight(2);
  
 
   int startX = width / 2;
